@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập Hệ thống Giao ban</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-card">
+      <h1>HỆ THỐNG GIAO BAN</h1>
+      <p>Bệnh viện Đa khoa - Số liệu thời gian thực</p>
+      
+      <div class="form-group" style="text-align: left; margin-bottom: 20px;">
+        <label for="token">Mã xác thực của khoa</label>
+        <input type="password" id="token" placeholder="Nhập mã khoa được cấp..." autocomplete="off">
+      </div>
+      
+      <button class="btn-primary" style="width: 100%;" onclick="login()">ĐĂNG NHẬP</button>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
